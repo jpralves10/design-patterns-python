@@ -1,3 +1,9 @@
+"""
+mkvirtualenv mvc
+
+pip install tornado
+"""
+
 from tornado import ioloop, httpserver
 from tornado.web import Application
 from controllers.produto_controller import Index, Novo, Atualiza, Deleta
