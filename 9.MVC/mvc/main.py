@@ -2,6 +2,8 @@
 mkvirtualenv mvc
 
 pip install tornado
+
+pip freeze > requeriments.txt
 """
 
 from tornado import ioloop, httpserver
